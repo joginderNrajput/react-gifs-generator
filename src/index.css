@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
+.background {
+  background-image: radial-gradient(
+    ellipse at 50% 50%,
+    rgb(36, 186, 53) 0%,
+    rgb(197, 38, 38) 0%,
+    rgb(35, 187, 109) 83%
+  );
+  /* background-size: 116px 116px; */
+  background-position: 0 0, 18px 18px;
+  background-color: #b1d2ff;
+}
+
+/* css loader generated using https://10015.io/tools/css-loader-generator */
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #a83434 94%, #0000) top/9px 9px
+      no-repeat,
+    conic-gradient(#0000 30%, #cc4311);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+  animation: spinner-c7wet2 1s infinite linear;
+  margin: 122px;
+}
+
+@keyframes spinner-c7wet2 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.tag-bg{
+   background:radial-gradient(ellipse at 50% 50%, rgba(24, 13, 169, 1) 2%, rgba(24, 13, 169, 1) 37%, rgba(0, 0, 0, 1) 100%, rgba(238, 130, 238, 1) 100%);
+}
+
+.random-bg{
+   background:radial-gradient(ellipse at 50% 50%, rgba(169, 13, 144, 1) 2%, rgba(35, 120, 157, 1) 37%, rgba(0, 0, 0, 1) 100%, rgba(42, 58, 107, 1) 100%);
+}
+
+
